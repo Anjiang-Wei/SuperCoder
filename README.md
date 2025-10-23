@@ -1,4 +1,4 @@
-# Improving Assembly Code Performance with Large Language Models via Reinforcement Learning
+# SuperCoder: Assembly Program Superoptimization with Large Language Models
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 [![arXiv](https://img.shields.io/badge/arXiv-2502.12466-b31b1b.svg)](https://arxiv.org/abs/2505.11480)
@@ -125,8 +125,8 @@ Arguments such as the number of problems to consider can be changed in the scrip
 If you use this repository in your research, please cite the corresponding paper:
 
 ```bibtex
-@misc{wei2025improvingassemblycodeperformance,
-      title={Improving Assembly Code Performance with Large Language Models via Reinforcement Learning}, 
+@misc{wei2025supercoderassemblyprogramsuperoptimization,
+      title={SuperCoder: Assembly Program Superoptimization with Large Language Models}, 
       author={Anjiang Wei and Tarun Suresh and Huanmi Tan and Yinglun Xu and Gagandeep Singh and Ke Wang and Alex Aiken},
       year={2025},
       eprint={2505.11480},
