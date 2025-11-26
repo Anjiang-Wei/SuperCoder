@@ -102,9 +102,9 @@ python print_results.py results
 
 ### Downloading CodeNet and TestCases
 
-Download and unzip the full CodeNet dataset from [here](https://dax-cdn.cdn.appdomain.cloud/dax-project-codenet/1.0.0/Project_CodeNet.tar.gz) and the metadata from [here](https://dax-cdn.cdn.appdomain.cloud/dax-project-codenet/1.0.0/Project_CodeNet_metadata.tar.gz). The unzipped folders should be in the `LLMCompiler/Project_CodeNet` directory. 
+Download and unzip the full CodeNet dataset from [here](https://dax-cdn.cdn.appdomain.cloud/dax-project-codenet/1.0.0/Project_CodeNet.tar.gz) and the metadata from [here](https://dax-cdn.cdn.appdomain.cloud/dax-project-codenet/1.0.0/Project_CodeNet_metadata.tar.gz). The unzipped folders should be in the `SuperCoder/Project_CodeNet` directory. 
 
-Then, download and unzip the test cases from [here](https://drive.google.com/file/d/1evBDJapwRvCQK6VUCTV8ZE9WG2k3QJQr/view). The unzipped folder should be in the `LLMCompiler/` directory and be named `test_cases`.
+Then, download and unzip the test cases from [here](https://drive.google.com/file/d/1evBDJapwRvCQK6VUCTV8ZE9WG2k3QJQr/view). The unzipped folder should be in the `SuperCoder/` directory and be named `test_cases`.
 
 
 ### Creating the training data 
