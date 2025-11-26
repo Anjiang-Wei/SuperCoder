@@ -1,13 +1,8 @@
 # SuperCoder: Assembly Program Superoptimization with Large Language Models
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
-[![arXiv](https://img.shields.io/badge/arXiv-2502.12466-b31b1b.svg)](https://arxiv.org/abs/2505.11480)
 [![License](https://img.shields.io/badge/license-Apache%202.0-green.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/downloads/)
-
-[![HuggingFace](https://img.shields.io/badge/🤗%20Hugging%20Face-Superoptimizer_Qwen7B-orange.svg)](https://huggingface.co/LLM4Code/Superoptimizer_Qwen7B)
-[![HuggingFace](https://img.shields.io/badge/🤗%20Hugging%20Face-llm_superoptimizer_ds-orange.svg)](https://huggingface.co/datasets/LLM4Code/llm_superoptimizer_ds)
-
 
 
 
@@ -70,7 +65,7 @@ We leverage the [verl](https://github.com/volcengine/verl) library for RL traini
 ### Downloading the parquet files 
 Download the parquet files locally by running 
 ```bash
-python download_parquet.py --ds_path LLM4Code/llm_superoptimizer_ds
+python download_parquet.py --ds_path random1123anonymized/supercoder
 ```
 
 ### Run the training script
@@ -119,22 +114,6 @@ bash scripts/create_ds.sh
 ```
 Arguments such as the number of problems to consider can be changed in the script. Refer to `src/create_data` for more details.
 
-
-## Citation
-
-If you use this repository in your research, please cite the corresponding paper:
-
-```bibtex
-@misc{wei2025supercoderassemblyprogramsuperoptimization,
-      title={SuperCoder: Assembly Program Superoptimization with Large Language Models}, 
-      author={Anjiang Wei and Tarun Suresh and Huanmi Tan and Yinglun Xu and Gagandeep Singh and Ke Wang and Alex Aiken},
-      year={2025},
-      eprint={2505.11480},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2505.11480}, 
-}
-```
 
 ---
 
