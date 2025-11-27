@@ -85,7 +85,7 @@ python src/evaluate.py --model_name $model_name
 
 We support OpenAI models, Anthropic models, Google models, models served by Together.ai, and models hosted on HuggingFace. 
 
-Furthermore, we provide a script that evaluates the performance of different models on the validation split of the `llm_superoptimizer_ds` dataset. Run the script with 
+Furthermore, we provide a script that evaluates the performance of different models on the validation split of the `supercoder` dataset. Run the script with 
 ```bash
 bash scripts/eval.sh
 ```
