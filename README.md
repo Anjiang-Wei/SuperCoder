@@ -80,7 +80,7 @@ bash verl/examples/ppo_trainer/run_qwen2.57_superopt.sh
 
 ### Running Main Evaluation
 ```python
-python src/evaluate.py --model_name LLM4Code/Superoptimizer_Qwen7B
+python src/evaluate.py --model_name $model_name
 ```
 
 We support OpenAI models, Anthropic models, Google models, models served by Together.ai, and models hosted on HuggingFace. 
